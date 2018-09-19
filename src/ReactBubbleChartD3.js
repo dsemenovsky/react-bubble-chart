@@ -92,7 +92,6 @@ export default class ReactBubbleChartD3 {
 
     // create the bubble layout that we will use to position our bubbles\
     this.bubble = d3.pack()
-      .sort(null)
       .size([this.diameter, this.diameter])
       .padding(3);
   }
